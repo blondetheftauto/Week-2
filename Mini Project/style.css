@@ -122,21 +122,21 @@ CONTACT
 
 */
 #contact {
-    background-color: #dce9ff;
+  background-color: #dce9ff;
 }
 form {
-    width: 100%;
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    padding: 0 24px;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 24px;
 }
-input, 
+input,
 textarea {
-    margin-bottom: 24px;
-    font-size: 20px;
-    padding: 6px 12px;
+  margin-bottom: 24px;
+  font-size: 20px;
+  padding: 6px 12px;
 }
 
 /*
@@ -146,21 +146,21 @@ FOOTER
 */
 
 footer {
-    background-color: #aaf5ff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: #aaf5ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .footer__logo {
-    max-width: 480px;
-    margin-bottom: 16px;
+  max-width: 480px;
+  margin-bottom: 16px;
 }
 .footer__links {
-    margin: 32px 0;
-    display: flex;
+  margin: 32px 0;
+  display: flex;
 }
 .footer__link {
-    padding: 0 16px;
+  padding: 0 16px;
 }
 
 /*
@@ -168,53 +168,54 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
 */
 
 @media (max-width: 728px) {
-    .row {
-        flex-direction: column;
-    }
-    .home__description {
-        margin-bottom: 24px;
-        display: flex;
-        flex-direction: column;
-    }
-    .home__description--button {
-        max-width: 240px;
-        align-items: center;
-    }
-    h1 {
-        text-align: center;
-        font-size: 60px;
-    }
-    .subheader {
-        text-align: center;
-        font-size: 28px;
-    }
-    ul {
-        display: none;
-    }
-    .section__description {
-        flex-direction: column;
-    }
-    .section__description--wrapper {
-        width: 100%
-    }
-    .about__img--wrapper {
-        width: 100%;
-    }
-    #discord, .section__description {
-        flex-direction: column-reverse;
-    }
-    footer {
-        padding: 48px 24px;
-    }
-    .footer__logo {
-        max-width: 360px;
-        margin-bottom: 12px;
-    }
-    .footer__links {
-        padding: 0 4px;
-        font-size: 18px;
-        text-align: center;
-        flex-direction: column;
-        margin: 12px 0 18px 0;
-    }
+  .row {
+    flex-direction: column;
+  }
+  .home__description {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  .home__description--button {
+    max-width: 240px;
+    align-items: center;
+  }
+  h1 {
+    text-align: center;
+    font-size: 60px;
+  }
+  .subheader {
+    text-align: center;
+    font-size: 28px;
+  }
+  ul {
+    display: none;
+  }
+  .section__description {
+    flex-direction: column;
+  }
+  .section__description--wrapper {
+    width: 100%;
+  }
+  .about__img--wrapper {
+    width: 100%;
+  }
+  #discord,
+  .section__description {
+    flex-direction: column-reverse;
+  }
+  footer {
+    padding: 48px 24px;
+  }
+  .footer__logo {
+    max-width: 360px;
+    margin-bottom: 12px;
+  }
+  .footer__links {
+    padding: 0 4px;
+    font-size: 18px;
+    text-align: center;
+    flex-direction: column;
+    margin: 12px 0 18px 0;
+  }
 }
