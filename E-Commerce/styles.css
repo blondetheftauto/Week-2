@@ -234,11 +234,11 @@ button:active {
 .highlight__wrapper {
   display: flex;
   margin-top: 36px;
+  flex-wrap: wrap;
 }
 .highlight {
   width: calc(100% / 3);
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
@@ -246,6 +246,7 @@ button:active {
   font-weight: bold;
   font-size: 20px;
   margin-bottom: 12px;
+  text-align: center;
 }
 
 .highlight__para {
@@ -381,6 +382,9 @@ footer {
   button {
     font-size: 18px;
     }
+  .books {
+    padding: 0 18px;
+  }
   .book {
     width: 50%;
   }
@@ -394,5 +398,14 @@ footer {
   }
   .btn__menu {
     display: block;
+  }
+  .highlight {
+    width: 100%;
+  }
+  .highlight:not(:last-child) {
+    margin-bottom: 24px;    
+  }
+  .footer__link {
+    margin: 0 0;
   }
 }
