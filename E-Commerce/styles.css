@@ -264,7 +264,6 @@ button:active {
   font-size: 32px;
   margin-bottom: 24px;
 }
-
 /* FEATURES */
 
 #features {
@@ -273,6 +272,7 @@ button:active {
 }
 .books {
   display: flex;
+  flex-wrap: wrap;
 }
 .book {
   width: 25%;
@@ -367,7 +367,26 @@ footer {
   font-size: 12px;
 }
 
-/* FOR SMALL PHONES TABLETS */
+/* FOR SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+@media (max-width: 768px) {
+  .header__description {
+    padding: 0 24px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  button {
+    font-size: 18px;
+    }
+  .book {
+    width: 50%;
+  }
+}
+
+/* SMALL PHONES, LARGE SMARTPHONES */
 
 @media (max-width: 550px) {
   .nav__links {
