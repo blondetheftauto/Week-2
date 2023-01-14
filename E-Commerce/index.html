@@ -10,6 +10,7 @@
       src="https://kit.fontawesome.com/c8e4d183c2.js"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
   </head>
   <body>
     <section id="landing">
@@ -31,6 +32,19 @@
               <a href="#" class="nav__link nav__link--primary">Books</a>
             </li>
           </ul>
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <div class="menu__backdrop"> 
+          <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+          <i class="fas fa-times"></i>
+         </button>
+          <ul class="menu__links">
+            <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Home</a></li>
+            <li class="menu__list"><a href="#features" class="menu__link" onclick="closeMenu()">Books</a></li>
+            <li class="menu__list"><a href="" class="menu__link no__cursor" onclick="closeMenu()">Contacts</a></li>
+          </ul>
         </div>
       </nav>
       <header>
@@ -41,7 +55,7 @@
               Find your dream book with
               <span class="text__purple">Library</span>
             </h2>
-            <button class="btn">Browse Books</button>
+            <a href="#features"><button class="btn">Browse Books</button></a>
           </div>
           <figure class="header__img--wrapper">
             <img
@@ -309,7 +323,7 @@
           <div class="row">
             <div class="explore">
             <h2 class="section__title">Explore More <span class="text__purple">Books</span></h2>
-            <button class="btn">Browse books</button>
+            <a href="#features"><button class="btn">Browse books</button></a>
           </div>
           </div>
         </div>
